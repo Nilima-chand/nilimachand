@@ -1,0 +1,531 @@
+*{
+	display: flex;
+	flex-direction: column;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	position:sticky ;
+	padding-left: cm;
+	top:0;
+	left: 0;
+	background-color: white;
+	z-index: 9999;
+	justify-content: space-between;
+}
+.navbarss{	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.logo{
+	display: flex;
+	flex-direction: column;
+	padding-top: 1rem;
+	align-content: center;
+	margin-left: 4.5cm;
+	justify-content: stretch;
+}
+
+.navbar{
+ display: flex;
+ flex-direction: row;
+  margin-top: 1rem;
+	margin-left: 2rem;
+ align-items: stretch;
+ width: 1000px;
+ justify-content: space-between;
+ 
+}
+.main-header{
+	background-color: #f5eeee;
+ font-style: italic;
+ display: flex;
+ padding-right: 2cm;
+ padding-bottom: 1rem;
+ flex-direction: row;
+ width: 100%;
+ justify-content: space-between;
+ 
+ }
+ 
+ 
+ .text{
+	 z-index: 999; 
+	 margin-top: -600px;
+	 margin-bottom:5px;
+	 text-align:center;
+	position:static;
+	margin-left:cm;
+
+ }
+ .food>img{
+	 object-fit: cover;
+ }
+ 
+.button{
+  font-display:calc(15px);
+	align-items: center;
+	font-size: large;
+	margin-right: 4rem;
+	font-style: italic;
+}
+.btn1{
+	display: flex;
+	padding: 1px 40px;
+	justify-content: space-between;
+	border-color: red;
+}
+.btn1:hover{
+background-color: red;
+}
+.btn2{
+	background-color:red;
+	padding: 1px 40px;
+}
+.btn2:hover{
+background-color: white;
+}
+.btn3{
+	padding: 1px 40px;
+	background-color: white;
+	border-color: red;
+	margin-left: 3rem;
+}
+.btn3:hover{
+background-color: red;
+}
+.btn4{
+	padding: 1px 40px;
+	background-color: white;
+	border-color: red;
+	margin-left: 4rem;
+}
+.btn4:hover
+{
+background-color: red;
+}
+.btn5{
+	padding: 1px 40px;
+	background-color: white;
+	border-color: red;
+	margin-left: 4rem;
+}
+.btn5:hover{
+background-color: red;
+}
+.btn6{
+	padding: 1px 40px;
+	background-color: white;
+	border-color: red;
+}
+
+.btn6:hover{
+background-color: red;
+}
+.btn7{
+	padding: 1px 45px;
+	background-color: white;
+	border-color: red;
+}
+.btn7:hover{
+background-color: red;
+}
+h1{
+font-style: italic;
+font-size:xxx-large;
+}
+h2{
+	font-style: italic;
+}
+
+h4{
+	font-style: normal;
+	color: red;
+}
+h5{
+	font-style: italic;
+}
+p{
+	font-style: normal;
+}
+body{
+	color:#444;
+	font-family: sans-serif;
+	border-top:5px solid #1098ad ;
+	width: 100%;
+}
+
+a:link {
+  color: red;
+}
+.botton.:hover {
+	transition-duration: 0.6s;
+	background-color: brown;
+  text-shadow:red;
+	
+}
+a:link { 
+	text-decoration: none; 
+
+}
+.btnbook:hover{
+	background-image: red;
+}
+
+/*
+.button:hover{
+	font-display: red;
+	box-shadow: red;
+}
+*/
+.main-header{
+ background-color: #f5eeee;
+font-style: italic;
+display: flex;
+flex-direction: row;
+margin-left: 0.5rem;
+justify-content: space-between;
+
+}
+
+
+.text{
+	z-index: 1000; 
+	margin-top: -300px;
+	margin-bottom: 3px;
+	text-align:center;
+ position: relative;
+ margin-left:20cm;
+ font-weight:lighter
+ font-size-adjust:
+}
+.food>img{
+	object-fit: cover;
+}
+
+.foodss{
+	position: relative;
+}
+
+.foodsections{
+  background-image:-moz-radial-gradient(ab3@2x.jpg)
+	background-position:right bottom ,left top;
+
+}
+.fooddy{
+	display:table-row;
+	position: absolute ; 
+	background-color: whitesmoke;
+}
+
+.foodsection1{
+display: flex;
+align-items: center;
+background-color: whitesmoke;
+
+}
+.sections{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 2rem;
+	background-color: whitesmoke;
+	
+}
+
+.sectionmenu{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: whitesmoke;
+}
+.pizzas{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin: 3cm;
+	margin-right:  3rem;
+	background-color: whitesmoke;
+}
+.pizza{
+	display: contents;
+align-content: center;
+
+}
+.chaumines{
+display: flex;
+flex-direction: column;
+margin-top: 7rem;
+align-items: center;
+	background-color: whitesmoke;
+}
+.chaumine{
+	display: contents;
+align-content: center;
+}
+
+
+
+.burgers{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+   margin-right: 3rem;
+	 margin-top: 7rem;
+	background-color: whitesmoke;
+}
+
+.burger{
+	display: contents;
+align-content: center;
+
+}
+.containers{
+ display:flex;
+ flex-direction: row;
+ width: 100%;
+ justify-content:space-between;
+ text-decoration:double;
+ background-color: whitesmoke;
+
+}
+.containA{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 5cm;
+	justify-content: space-between;
+
+
+}
+.containa{
+	display: flex;
+	align-content: center;
+
+}
+.containaa{
+	display: contents;
+	align-items:center
+}
+.containB{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:space-between;
+
+
+}
+
+.containb{
+	
+	display: flex;
+	align-content: center;
+	
+}
+.containC{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+
+
+}
+
+.containc{
+	display: flex;
+align-content: center;
+}
+.containD{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+padding-right: 5cm;
+
+}
+.containd{
+	display: flex;
+align-content: center;
+}
+.phame{
+	display:flex;
+}
+.imagesss{
+	display:flex ;
+	padding-left: cm;
+}
+.imagesss>img{
+	object-fit: cover;
+}
+
+
+.Menus{
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-between;
+	margin-top: 1cm;
+	background-color: whitesmoke;
+
+}
+.list1{
+	display: flex;
+	flex-direction: column;
+	padding-right: 5cm;
+	background-color: whitesmoke;
+
+}
+.listAA{
+	background-color: whitesmoke;
+	display: flex;
+	flex-direction: row;
+}
+.lista{
+	display: flex;
+  flex-direction: column;
+}
+.list2{
+	display: flex;
+	flex-direction: row;
+}
+.listb{
+	display: flex;
+  flex-direction: column;
+}
+
+.list3{
+	display: flex;
+	flex-direction: row;
+}
+.listc{display: flex;
+ flex-direction: column;
+
+}
+
+.list4{
+	display: flex;
+	flex-direction: row;
+}
+.listd{display: flex;
+ flex-direction: column;
+
+
+}
+
+
+.list5{
+	display: flex;
+	flex-direction: row;
+}
+.liste{display: flex;
+ flex-direction: column;
+}
+.Menu2{
+	display: flex;
+	flex-direction:column;
+	background-color: whitesmoke;
+
+}
+.list1a{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	padding-top: 1cm;
+	padding-right: 1cm;
+	background-color: whitesmoke;
+}
+.listttaaa{
+display: flex;
+flex-direction: column;
+padding-left: 1cm;
+
+
+}
+.list1A{display: flex;
+ flex-direction: row;
+ 
+}
+.list1aa{
+	display: flex;
+  flex-direction: column;
+	padding-right: 1cm;
+}
+.list2a{
+	display: flex;
+	flex-direction: row ;
+
+}
+.list2b{
+	display: flex;
+  flex-direction: column;
+	padding: left 0.9cm; ;
+}
+
+.list3a{
+	display: flex;
+	flex-direction: row;
+}
+.list3c{
+	display: flex;
+ flex-direction: column;
+}
+
+.Menu111{
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-between;
+	padding-top: 1.5cm;
+	background-color: whitesmoke;
+
+}
+.lista1{
+	display: flex;
+	flex-direction: column;
+	padding-right: 5cm;
+	background-color: whitesmoke;
+
+}
+.list1A{display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ background-color: whitesmoke;
+}
+.list11a{
+	display: flex;
+  flex-direction: column;
+	padding-right: 1cm;
+}
+.list22{
+	display: flex;
+	flex-direction: row;
+	background-color: whitesmoke;
+}
+.list22b{
+	display: flex;
+  flex-direction: column;
+}
+
+.list33{
+	display: flex;
+	flex-direction: row;
+	background-color: whitesmoke;
+}
+.list33c{display: flex;
+ flex-direction: column;
+
+}
+
+
+.footersss{
+	display: flex;
+	flex-direction: row;
+	justify-content:  space-between;
+	padding-left: 3cm;
+	padding-right: 3cm;
+	padding-top: 1cm;
+	background-color: whitesmoke ;
+	border: 2px solid black;
+}
